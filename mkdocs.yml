@@ -1,6 +1,6 @@
 site_name: Chatbot Knowledge Base
 site_description: Sample MkDocs KB for practice
-site_url: https://your-org.github.io/knowledge-base-site/
+site_url: https://oleksandr-ridkodub.github.io/test-web/
 
 theme:
   name: material
