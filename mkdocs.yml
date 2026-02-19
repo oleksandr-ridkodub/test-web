@@ -1,0 +1,28 @@
+site_name: Chatbot Knowledge Base
+site_description: Sample MkDocs KB for practice
+site_url: https://your-org.github.io/knowledge-base-site/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - FAQ: faq.md
+  - Architecture: architecture.md
+  - Integrations:
+      - Azure: integrations/azure.md
+      - GitHub: integrations/github.md
